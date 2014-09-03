@@ -64,6 +64,10 @@ body {
 	width: 200px;
 }
 
+#main h3 {
+	font-size: 24px;
+}
+
 #main-onboarding textarea {
 	margin-bottom: 20px;
 }
@@ -76,4 +80,35 @@ body {
 .tag {
 	font-weight: 600;
 	color: #3AA5FF;
+}
+
+#tags {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#tags button {
+	margin-right: 5px;
+}
+
+#paperwork i, #documents i {
+	color: #3AA5FF;
+}
+
+#paperwork, #documents {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.paperwork-row, .documents-row {
+	padding: 10px;
+}
+.paperwork-row:hover, .documents-row:hover {
+	background-color: #f8f8f8;
+}
+.paperwork-row p, .documents-row p {
+	margin: 0;
+}
+#paperwork .paperwork-row i, #documents .documents-row i {
+	color: rgba(0,0,0,.24);
 }
