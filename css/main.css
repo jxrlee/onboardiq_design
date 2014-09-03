@@ -64,9 +64,12 @@ body {
 	width: 200px;
 }
 
+#main-onboarding textarea {
+	margin-bottom: 20px;
+}
 
-
-
-
-
+#main-onboarding label {
+	text-align: left;
+	float: left
+}
 
