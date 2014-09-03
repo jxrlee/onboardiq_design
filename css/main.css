@@ -4,15 +4,65 @@
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+	font-family: 'ProximaNova';
+	font-weight: 200;
+	src: url("../fonts/ProximaNova-Light.otf") format("opentype");
+}
+@font-face {
+	font-family: 'ProximaNova';
+	font-weight: 400;
+	src: url("../fonts/ProximaNova-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: 'ProximaNova';
+	font-weight: 600;
+	src: url("../fonts/ProximaNova-Semibold.otf") format("opentype");
+}
+@font-face {
+	font-family: 'ProximaNova';
+	font-weight: 800;
+	src: url("../fonts/ProximaNova-Bold.otf") format("opentype");
+}
 
+body {
+	font-family: 'ProximaNova', Helvetica, Sans-Serif;
+}
 
+#main, #main-onboarding {
+	margin-top: 64px;
+	!border: 1px solid #f1f1f1;
+}
+#main-onboarding {
+	text-align: center;
+}
+#onboarding-header {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#main-onboarding h3 {
+	font-size: 32px;
+	color: rgba(0,0,0,.87);
+}
+#main-onboarding p {
+	font-size: 20px;
+	color: rgba(0,0,0,.54);
+	font-weight: 200;
+}
+#main-onboarding a {
+	color: rgba(82,211,33,1);
+}
 
-
-
-
-
-
-
+#main-onboarding .jumbotron {
+	margin-top: 20px;
+}
+#main-onboarding .jumbotron p {
+	font-size: 16px;
+	font-weight: 400;
+}
+#main-onboarding button {
+	width: 200px;
+}
 
 
 

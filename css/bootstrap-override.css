@@ -1,0 +1,15 @@
+.navbar-default {
+	background-image: none;
+	background-color: #ffffff;
+}
+
+.jumbotron {
+	background-color: #ffffff;
+	border: 1px dashed #dddddd;
+}
+
+.btn {
+	border-radius: 4px;
+	background: #3AA5FF;
+	border: none;
+}
