@@ -13,3 +13,7 @@
 	background: #3AA5FF;
 	border: none;
 }
+
+label {
+	font-weight: 600;
+}
