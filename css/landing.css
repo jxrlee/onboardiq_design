@@ -36,3 +36,8 @@ button.btn.btn-primary.btn-lg.continue {
 	letter-spacing: 1px;
 	color: rgba(255,255,255,.87);
 }
+
+a {
+	font-weight: 600;
+	color: #24B37F;
+}
