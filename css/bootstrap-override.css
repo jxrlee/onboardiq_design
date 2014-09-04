@@ -3,6 +3,10 @@
 	background-color: #ffffff;
 }
 
+.navbar-right {
+	border-left: 1px solid #f1f1f1;
+}
+
 .jumbotron {
 	background-color: transparent;
 }
@@ -17,9 +21,9 @@ label {
 	font-weight: 600;
 }
 
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav > .active > a {
 	font-weight: 600;
-	border-bottom: 3px solid #3AA5FF;
+	border-bottom: 3px solid rgba(75,197,153,.65);;
 	background-image: none;
 	box-shadow: none;
 }

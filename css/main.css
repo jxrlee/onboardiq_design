@@ -99,7 +99,7 @@ body {
 }
 
 #paperwork i, #documents i {
-	color: #3AA5FF;
+	color: rgba(75,197,153,.65);;
 }
 
 #paperwork, #documents {
