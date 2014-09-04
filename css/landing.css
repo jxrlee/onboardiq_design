@@ -1,0 +1,38 @@
+html { 
+  background: url(../images/tea_bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	background-color: transparent;
+}
+
+#landing-header {
+	margin-top: 60px;
+}
+
+#landing-header h1 {
+	font-size: 48px;
+	font-weight: 400;
+	color: rgba(0,0,0,.54);
+	
+}
+
+#landing-header h3 {
+	color: rgba(0,0,0,.34);
+}
+
+button.btn.btn-primary.btn-lg.continue {
+	margin-top: 40px;
+	width: 140px;
+	border-radius: 4px;
+	background: rgba(75,197,153,.65);
+	border: none;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: rgba(255,255,255,.87);
+}
