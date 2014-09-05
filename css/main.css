@@ -115,6 +115,8 @@ body {
 }
 .paperwork-row p, .documents-row p {
 	margin: 0;
+	font-size: 16px;
+	font-weight: 200;
 }
 #paperwork .paperwork-row i, #documents .documents-row i {
 	color: rgba(0,0,0,.24);
@@ -135,7 +137,7 @@ body {
 	height: 2px;
 	background-color: rgba(75,197,153,.65);
 	box-shadow: none;
-	margin-top: 7px;
+	margin-top: 10px;
 	margin-right: 5px;
 }
 
@@ -155,3 +157,14 @@ body {
 	font-weight: 600;
 }
 
+.document-item {
+	padding: 6px 15px;
+	color: rgba(0,0,0,.44);
+}
+.document-item i {
+	color: green;
+	margin-right: 5px;
+}
+#paperwork .paperwork-row .document-item i {
+	color: rgba(75,197,153,.65)
+}
