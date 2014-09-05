@@ -139,3 +139,19 @@ body {
 	margin-right: 5px;
 }
 
+.paperwork-expanded {
+
+}
+
+.metrics {
+	font-size: 24px;
+	padding: 10px 15px;
+	display: inline-block;
+	color: rgba(0,0,0,.44);
+}
+
+.metrics small {
+	font-size: 16px;
+	font-weight: 600;
+}
+
