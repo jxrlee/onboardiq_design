@@ -126,13 +126,14 @@ body {
 	display: inline-block;
 	width: 40px;
 	text-align: right;
+	color: rgba(0,0,0,.44);
+
 }
 
 .progress-bar {
 	width: 120px;
 	height: 2px;
-	color: rgba(0,0,0,.12);
-	background-color: rgba(0,0,0,.12);
+	background-color: rgba(75,197,153,.65);
 	box-shadow: none;
 	margin-top: 7px;
 	margin-right: 5px;
