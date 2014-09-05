@@ -120,4 +120,21 @@ body {
 	color: rgba(0,0,0,.24);
 }
 
+.row-completion {
+	font-weight: 600;
+	margin-right: 20px;
+	display: inline-block;
+	width: 40px;
+	text-align: right;
+}
+
+.progress-bar {
+	width: 120px;
+	height: 2px;
+	color: rgba(0,0,0,.12);
+	background-color: rgba(0,0,0,.12);
+	box-shadow: none;
+	margin-top: 7px;
+	margin-right: 5px;
+}
 
